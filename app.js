@@ -2,8 +2,9 @@
 const path = require('path');
 const express = require('express'); //third party module
 const bodyParser = require('body-parser'); //third party module to extract data from body
+const errorController = require('./controllers/error');
 
-const adminData = require('./routes/admin');
+const adminRoutes = require('./routes/admin');
 const shopRoutes = require('./routes/shop');
 // const expressHbs = require('express-handlebars');
 
@@ -27,7 +28,7 @@ app.set('views', 'views');
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public'))); //serve static files (e.g. css, images)
 
-app.use('/admin', adminData.routes);
+app.use('/admin', adminRoutes);
 app.use(shopRoutes);
 
 //request goes from top to bottom
@@ -38,9 +39,6 @@ app.use(shopRoutes);
 //   next(); //allows the request to continue to the next middleware in line
 // });
 
-app.use((req, res, next) => {
-  // res.status(404).sendFile(path.join(__dirname, 'views', '404.html'));
-  res.status(404).render('404', { pageTitle: 'Page Not Found' }); //render html using templating engine
-});
+app.use(errorController.get404);
 
 app.listen(5000);
