@@ -1,1 +1,14 @@
-[{"title":"fsd"},{"title":"fsd"},{"title":"as"},{"title":"d"},{"title":"as3"},{"title":"a"},{"title":"a"},{"title":"harpot"},{"title":"sd"},{"title":"sdf"}]
+[
+  {
+    "title": "A book",
+    "imageUrl": "https://www.publicdomainpictures.net/pictures/40000/velka/blank-book-illustration.jpg",
+    "description": "this is a book",
+    "price": "45"
+  },
+  {
+    "title": "Second Book",
+    "imageUrl": "https://www.publicdomainpictures.net/pictures/40000/velka/blank-book-illustration.jpg",
+    "description": "Second book",
+    "price": "19.99"
+  }
+]
