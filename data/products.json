@@ -1,14 +1,23 @@
 [
   {
-    "title": "A book",
-    "imageUrl": "https://www.publicdomainpictures.net/pictures/40000/velka/blank-book-illustration.jpg",
-    "description": "this is a book",
-    "price": "45"
+    "title": "A Book",
+    "imageUrl": "https://www.adazing.com/wp-content/uploads/2019/02/open-book-clipart-15-300x300.png",
+    "description": "this is a book\r\n",
+    "price": "19.99",
+    "id": "0.7812862696452105"
   },
   {
-    "title": "Second Book",
-    "imageUrl": "https://www.publicdomainpictures.net/pictures/40000/velka/blank-book-illustration.jpg",
-    "description": "Second book",
-    "price": "19.99"
+    "title": "sdgsdg",
+    "imageUrl": "https://www.adazing.com/wp-content/uploads/2019/02/open-book-clipart-15-300x300.png",
+    "description": "dsfdsf",
+    "price": "45",
+    "id": "0.8559546701103473"
+  },
+  {
+    "title": "Another Book",
+    "imageUrl": "https://www.adazing.com/wp-content/uploads/2019/02/open-book-clipart-15-300x300.png",
+    "description": "Another very amazing book",
+    "price": "45.99",
+    "id": "0.5389588228726319"
   }
 ]
