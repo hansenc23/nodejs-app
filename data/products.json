@@ -1,1 +1,9 @@
-[{"title":"A Book","imageUrl":"https://www.adazing.com/wp-content/uploads/2019/02/open-book-clipart-15-300x300.png","description":"this is a book\r\n","price":"19.99","id":"0.7812862696452105"}]
+[
+  {
+    "id": "0.7812862696452105",
+    "title": "A Book",
+    "imageUrl": "https://www.adazing.com/wp-content/uploads/2019/02/open-book-clipart-15-300x300.png",
+    "description": "this is a book\r\n",
+    "price": "19.99"
+  }
+]
